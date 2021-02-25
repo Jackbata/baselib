@@ -1,10 +1,13 @@
-# Built application files
+.gradle
+local.properties
+.idea/
+.DS_Store
+build
+captures
 *.apk
-*.aar
 *.ap_
-*.aab
 
-# Files for the ART/Dalvik VM
+# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -14,8 +17,12 @@
 bin/
 gen/
 out/
-#  Uncomment the following line in case you need and you don't have the release build type files in your app
-# release/
+prod/
+prod.zip
+prod-axx.zip
+prod-tol.zip
+react.zip
+react-axx.zip
 
 # Gradle files
 .gradle/
@@ -36,51 +43,5 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ
+# Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-# Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
-# Comment next line if keeping position of elements in Navigation Editor is relevant for you
-.idea/navEditor.xml
-
-# Keystore files
-# Uncomment the following lines if you do not want to check your keystore files in.
-#*.jks
-#*.keystore
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-.cxx/
-
-# Google Services (e.g. APIs or Firebase)
-# google-services.json
-
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
-
-# Version control
-vcs.xml
-
-# lint
-lint/intermediates/
-lint/generated/
-lint/outputs/
-lint/tmp/
-# lint/reports/
-/.idea/
